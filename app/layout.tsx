@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "SweepBot Pro | Smart Robot Sweeper",
   description:
     "Experience the future of home cleaning with SweepBot Pro - AI-powered navigation, powerful suction, and effortless automation.",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({

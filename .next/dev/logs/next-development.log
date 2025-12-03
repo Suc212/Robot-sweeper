@@ -1,0 +1,128 @@
+[00:00:01.430] Server  LOG      ✓ Ready in 885ms
+[00:00:04.473] Server  LOG      ○ Compiling / ...
+[00:00:07.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.133] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         webcrx=""
+                        >
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <form onSubmit={function handleSubmit} className="mt-8 round...">
+                                <div className="space-y-5">
+                                  <div>
+                                  <div className="grid gap-4...">
+                                    <div className="space-y-2">
+                                      <Label>
+                                      <Input id="firstName" name="firstName" placeholder="Kwame" required={true} ...>
+                                        <input
+                                          type={undefined}
+                                          data-slot="input"
+                                          className="file:text-foreground placeholder:text-muted-foreground selection:..."
+                                          id="firstName"
+                                          name="firstName"
+                                          placeholder="Kwame"
+                                          required={true}
+-                                         fdprocessedid="wjsu2"
+                                        >
+                                    <div className="space-y-2">
+                                      <Label>
+                                      <Input id="lastName" name="lastName" placeholder="Asante" required={true} ...>
+                                        <input
+                                          type={undefined}
+                                          data-slot="input"
+                                          className="file:text-foreground placeholder:text-muted-foreground selection:..."
+                                          id="lastName"
+                                          name="lastName"
+                                          placeholder="Asante"
+                                          required={true}
+-                                         fdprocessedid="e4ayby"
+                                        >
+                                  <div className="space-y-2">
+                                    <Label>
+                                    <Input id="phone" name="phone" type="tel" placeholder="0XX XXX XXXX" required={true} ...>
+                                      <input
+                                        type="tel"
+                                        data-slot="input"
+                                        className="file:text-foreground placeholder:text-muted-foreground selection:bg..."
+                                        id="phone"
+                                        name="phone"
+                                        placeholder="0XX XXX XXXX"
+                                        required={true}
+-                                       fdprocessedid="76kv5h"
+                                      >
+                                  <div className="space-y-2">
+                                    <Label>
+                                    <Input id="whatsapp" name="whatsapp" type="tel" placeholder="0XX XXX XXXX" ...>
+                                      <input
+                                        type="tel"
+                                        data-slot="input"
+                                        className="file:text-foreground placeholder:text-muted-foreground selection:bg..."
+                                        id="whatsapp"
+                                        name="whatsapp"
+                                        placeholder="0XX XXX XXXX"
+                                        required={true}
+-                                       fdprocessedid="087x4b"
+                                      >
+                                    ...
+                                  <div className="space-y-2">
+                                    <Label>
+                                    <Input id="email" name="email" type="email" placeholder="kwame@exam..." ...>
+                                      <input
+                                        type="email"
+                                        data-slot="input"
+                                        className="file:text-foreground placeholder:text-muted-foreground selection:bg..."
+                                        id="email"
+                                        name="email"
+                                        placeholder="kwame@example.com"
+-                                       fdprocessedid="sy76a"
+                                      >
+                                  <div>
+                                  <div>
+                                  <Button type="submit" size="lg" className="w-full h-1..." disabled={false}>
+                                    <button
+                                      data-slot="button"
+                                      className={"inline-flex items-center justify-center gap-2 whitespace-nowrap tra..."}
+                                      type="submit"
+                                      disabled={false}
+-                                     fdprocessedid="yqexgm"
+                                    >
+                                  ...
+                            ...
+                  ...
+
+[00:00:09.388] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.388] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.388] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764787802579}
+[00:01:19.200] Server  LOG      ○ Compiling /api/orders ...
